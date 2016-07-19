@@ -1,0 +1,53 @@
+#!/usr/bin/python
+import math
+import numpy
+import time
+import RPi.GPIO as io
+#from rrb3 import *
+
+io.setmode(io.BCM)
+
+forward_pin0=27
+backward_pin0=22
+
+#forward_pin1=27
+#backward_pin1=22
+
+#forward_pin2=27
+#backward_pin2=22
+
+#forward_pin3=27
+#backward_pin3=22
+
+#forward_pin4=27
+#backward_pin4=22
+
+#forward_pin5=27
+#backward_pin5=22
+
+#forward_pin6=27
+#backward_pin6=22
+
+#forward_pin7=27
+#backward_pin7=22
+
+#forward_pin8=27
+#backward_pin8=22
+
+#forward_pin9=27
+#backward_pin9=22
+
+def forward(pinForward, pinBackward):
+    io.output(pinForward, True)
+    io.output(pinBackward, False)
+
+def backward(pinForward, pinBackward):
+    io.output(pinForward, False)
+    io.output(pinBackward, True)
+
+def stop(pinForward, pinBackward):
+    io.output(pinForward, False)
+    io.output(pinBackward, False)
+
+
+    
