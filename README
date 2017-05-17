@@ -1,2 +1,9 @@
-open the glove.py for the main program
+The reason for this project is to test the capabilities of the raspberry pi and its ability to render 3d objects
+
+An overview of the project:
+Create a virtual reality haptic feedback glove that can:
+1. Render 3d objects using only a Raspberry pi 2
+2. Create a glove with 10 vibrating motors to give sensation of touch from virtual objects
+
+The whole program is contained in glove.py
 at the top I wrote the instructions on how to set everything up the way we did for this to work
